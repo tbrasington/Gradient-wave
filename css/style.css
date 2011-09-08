@@ -1,0 +1,235 @@
+/* reset */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, 
+hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+    background: none;
+}
+
+/* start */
+
+html, body
+{
+	margin:0;
+	padding: 0;
+	background-color: #fff;
+	background-image: url(../images/front/texture.jpg);
+	background-repeat: repeat;
+}
+
+
+
+#site-header
+{
+	position: relative;
+	width: 100%;
+	height: 340px;
+   	background-image: -webkit-linear-gradient(left, hsla(175, 45%, 42% ,1), hsla(195, 66%, 43%,1));
+   	overflow: hidden;
+   	margin: 20px 0;
+}
+
+#site-header h1
+{
+	width: 100%;
+	height: 340px;
+	background-image: url(../images/front/2c2d-logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	font-size: 0;
+	
+}
+
+nav
+{	
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	background-color: #fff;
+	top:0px;
+}
+	nav ul 
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+		nav ul li
+		{
+			margin: 0px 5px 0px 0px;
+			padding: 0px;
+			width:auto;
+			font-family: "Nudista", "nudista-web-1","nudista-web-2",sans-serif;
+			font-weight: normal;
+			font-size: 12px;
+			text-transform: uppercase;
+			display:inline;
+		}
+		
+		nav ul li a
+		{
+			color: #4f4f4f;
+			text-decoration: none;
+		}
+		
+#nav-obj-scroller
+{
+	position: absolute;
+	width:100%;
+	height: 340px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #fff;
+	top:20px;
+}
+			
+#nav-obj-container
+{
+	position: relative;
+	width: 100%;
+	height: 340px;
+	top:40px;
+	left: 40px;
+}
+
+.nav-obj
+{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 200px;
+	cursor: pointer;
+}
+
+.nav-obj-title
+{
+	position: relative;
+	top:90px;
+	width: 300px;
+	height: auto;
+	font-family:  "Nudista", "nudista-web-1","nudista-web-2",sans-serif;
+	text-transform: uppercase;
+	font-size:24px;
+	font-weight: bold;
+	-webkit-transform: rotate(-45deg); 
+	-moz-transform: rotate(-45deg);
+	color: #fff;
+}
+
+
+.nav-obj-title a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-selected .nav-obj-title a
+{
+	color: #cc0000;
+}
+
+.nav-obj-title a:hover
+{
+	color: #cc0000;
+}
+
+
+.nav-obj:hover .nav-obj-title a
+{
+	color: #cc0000;
+}
+.nav-obj:hover .nav-obj-ind
+{
+	background-color: #cc0000;
+}
+
+.nav-obj-ind
+{
+	position: absolute;
+	width: 1px;
+	height:50px;
+	background-color: #fff;
+	left: 48px;
+	top:250px;
+
+}
+
+.nav-selected .nav-obj-ind
+{
+	background-color: #cc0000;
+}
+
+		
+.article-list
+{
+	position: relative;
+	float: none;
+	margin: auto;
+	width: 800px;
+	height: auto;
+	background: none;
+	padding: 20px 0px 20px 0px;
+}
+
+	.article-list article
+	{
+		position: relative;
+		float: left;
+		width: 800px;
+	}
+	
+	.article-list header
+	{
+		background: none;
+		height: auto;
+	}
+	
+	.article-list header time
+	{
+		font-family: "Nudista", "nudista-web-1","nudista-web-2",sans-serif;
+		font-weight: bold;
+		font-size: 13px;
+		text-transform: uppercase;
+		color: #fff;
+		height: auto;
+		padding:0;
+		margin: 0;
+	}
+	
+	.article-list header h2
+	{
+		font-family: "Nudista", "nudista-web-1","nudista-web-2",sans-serif;
+		font-weight: bold;
+		font-size: 28px;
+		text-transform: uppercase;
+		height: auto;
+		padding: 5px 0;
+		margin: 0;
+	}

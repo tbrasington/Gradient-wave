@@ -1,0 +1,39 @@
+html, body
+{
+	margin:0;
+	padding: 0;
+	background-color: #fff;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+
+@-webkit-keyframes pulse {
+	from {
+		opacity: 1;
+	}
+	25%
+	{
+		opacity: .75;
+	}
+	50% {
+		opacity: .65;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+header
+{
+	width: 100%;
+	height: 300px;
+   	background-image: -webkit-linear-gradient(left, hsla(175, 45%, 42% ,1), hsla(195, 66%, 43%,1));  
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
